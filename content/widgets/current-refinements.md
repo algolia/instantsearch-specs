@@ -39,4 +39,14 @@ classes:
     description: the delete button of each catgory
   - name: .ais-CurrentRefinements-reset
     description: the reset button for current selected values
+options:
+  - name: attributes
+    description: Label definitions for the different filters.
+  - name: whitelist
+    description: list of attributes to show
+  - name: blacklist
+    description: list of attributes not to show
+  - name: clearsQuery
+    default: false
+    name: The clear all button also clears the query
 ---

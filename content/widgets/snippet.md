@@ -10,4 +10,8 @@ classes:
   description: the highlighted text
 - name: .ais-Snippet-nonHighlighted
   description: the normal text
+options:
+  - name: highlightTag
+    default: em
+    description: DOM tag to use for the highlighted parts, in addition to the classes
 ---

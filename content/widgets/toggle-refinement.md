@@ -28,4 +28,11 @@ classes:
     description: the label text of each toggle item
   - name: .ais-ToggleRefinement-count
     description: the count of items for each item
+options:
+  - name: attribute
+    description: Attribute to apply the filter to
+  - name: 'on'
+    description: Refinement to enable if this widget is checked (required)
+  - name: 'off'
+    description: Refinement to enable if this widget is not checked
 ---

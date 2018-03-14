@@ -17,4 +17,12 @@ classes:
     description: the select
   - name: .ais-MenuSelect-option
     description: the select option
+options:
+  - name: attribute
+    description: Attribute to apply the filter to
+  - name: limit
+    default: 10
+    description: Number of items to show
+  - name: sortBy
+    description: array or function to sort the results by
 ---
