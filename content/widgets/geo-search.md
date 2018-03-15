@@ -62,4 +62,35 @@ classes:
     description: the reset refinement button
   - name: .ais-GeoSearch-reset--disabled
     description: the disabled reset refinement button
+options:
+  - name: initialZoom
+    default: 1
+    description: Zoom of the map when no results are found
+  - name: initialPosition
+    default: "{ lat:0, lng:0 }"
+    description: Position of the map when no results are found
+  - name: paddingBoundingBox
+    default: "{ top:0, right:0, bottom:0, left:0 }"
+    description: Add an inner padding on the map when you refine
+  - name: mapOptions
+    default: "{}"
+    description: Option forwarded to the Google Maps constructor
+  - name: enableClearMapRefinement
+    default: true
+    description: Button displayed on the map when the refinement is coming from the map in order to remove it
+  - name: enableRefineControl
+    default: true
+    description: The user can toggle the option `enableRefineOnMapMove` directly from the map
+  - name: enableRefineOnMapMove
+    default: true
+    description: Refine will be triggered as you move the map
+  - name: enableGeolocationWithIP
+    default: true
+    description: The IP will be use for the location, when `position` is provided this option is ignored
+  - name: position
+    description: Position that will be use to search around
+  - name: radius
+    description: Maximum radius to search around the position
+  - name: precision
+    description: Precision of geo search
 ---
