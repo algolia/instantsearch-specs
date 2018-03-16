@@ -22,8 +22,10 @@ classes:
   - name: .ais-ClearRefinements-button--disabled
     description: the disabled clickable button
 options:
-  - name: excludedAttributes
+  - name: blacklist
     description: Attributes not to clear
+  - name: whitelist
+    description: Attributes to clear
   - name: clearsQuery
     default: false
     description: Also clears the query
