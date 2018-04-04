@@ -6,12 +6,12 @@ html: |
     <form class="ais-RangeInput-form">
       <label class="ais-RangeInput-label">
         <span class="ais-RangeInput-currency">$</span>
-        <input class="ais-RangeInput-input ais-RangeInput-input--min" type="number" />
+        <input class="ais-RangeInput-input ais-RangeInput-input--min" step="any" type="number" />
       </label>
       <span class="ais-RangeInput-separator">to</span>
       <label class="ais-RangeInput-label">
         <span class="ais-RangeInput-currency">$</span>
-        <input class="ais-RangeInput-input ais-RangeInput-input--max" type="number" />
+        <input class="ais-RangeInput-input ais-RangeInput-input--max" step="any" type="number" />
       </label>
       <button class="ais-RangeInput-submit" type="submit">Go</button>
     </form>
