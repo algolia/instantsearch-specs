@@ -4,7 +4,7 @@ docsearch({
   apiKey: 'e0cad4d028f0c3aa772c62952ed754cb',
   indexName: 'instantsearch_specs',
   inputSelector: '#docsearch',
-  debug: true // Set debug to true if you want to inspect the dropdown 
+  debug: false, // Set debug to true if you want to inspect the dropdown
 });
 
 const changeThemeSelect = document.getElementById('js-changeTheme');
