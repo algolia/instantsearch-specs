@@ -42,8 +42,6 @@ classes:
 options:
   - name: attributes
     description: Label definitions for the different filters.
-  - name: includedAttributes
-    description: list of attributes to show
   - name: excludedAttributes
     description: list of attributes not to show
   - name: clearsQuery
