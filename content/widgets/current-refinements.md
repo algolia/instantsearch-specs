@@ -42,9 +42,9 @@ classes:
 options:
   - name: attributes
     description: Label definitions for the different filters.
-  - name: whitelist
+  - name: includedAttributes
     description: list of attributes to show
-  - name: blacklist
+  - name: excludedAttributes
     description: list of attributes not to show
   - name: clearsQuery
     default: false
