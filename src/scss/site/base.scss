@@ -234,6 +234,7 @@ body {
   padding: 20px;
   border: 1px solid #ddd;
   overflow: auto;
+  transition: .2s background-color ease-in-out;
 }
 
 .code-output code {
@@ -329,7 +330,7 @@ body {
   }
 }
 
-// dark background should be visible 
-.ais-PoweredBy--dark {
-  background: black;
+.dark {
+  background-color: $dark;
+  color: white;
 }
