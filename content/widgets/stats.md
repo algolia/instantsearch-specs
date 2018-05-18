@@ -11,4 +11,11 @@ classes:
   - name: .ais-Stats-text
     description: the text of the widget
     description: the count of items for each item
+templates:
+  - name: default
+    provided:
+      - nbHits
+      - processingTime
+      - query
+    description: Overrides everything in the wrapping `div`
 ---

@@ -107,6 +107,31 @@
     {{ else }}
       <p><small><strong>Note:</strong> there are no common options for this widget</small></p>
     {{ end }}
+
+    <h3 id="templates">Templates</h3>
+
+    {{ if .Params.templates }}
+
+    <p><small><strong>Note:</strong> this is a guideline for new InstantSearch flavours, not a rule.</small></p>
+
+    <table>
+      <thead>
+        <th>name</th>
+        <th>provided values</th>
+        <th>description</th>
+      </thead>
+      {{ range $element := .Params.templates }}
+        <tr>
+          <td><code>{{ $element.name }}</code></td>
+          <td><code>{{ delimit $element.provided ", " }}</code></td>
+          <td>{{ if $element.description}}{{ $element.description | markdownify }}{{ end }}</td>
+        </tr>
+      {{ end }}
+    </table>
+
+    {{ else }}
+      <p><small><strong>Note:</strong> there are no common templates for this widget</small></p>
+    {{ end }}
   </main>
 </div>
 
