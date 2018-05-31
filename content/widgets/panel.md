@@ -7,9 +7,27 @@ html: |
     <div class="ais-Panel-body">Panel content</div>
     <div class="ais-Panel-footer">Footer</div>
   </div>
+alt1: Collapsible
+althtml1: |
+  <div class="ais-Panel ais-Panel-collapsible">
+    <div class="ais-Panel-header">Header</div>
+    <div class="ais-Panel-body">Panel content</div>
+    <div class="ais-Panel-footer">Footer</div>
+  </div>
+alt2: Collapsed
+althtml2: |
+  <div class="ais-Panel ais-Panel--collapsible ais-Panel-Panel--collapsed">
+    <div class="ais-Panel-header">Header</div>
+    <div class="ais-Panel-body">Panel content</div>
+    <div class="ais-Panel-footer">Footer</div>
+  </div>
 classes:
   - name: .ais-Panel
     description: the root div of the Panel
+  - name: .ais-Panel--collapsible
+    description: the root div of the collapsible Panel
+  - name: .ais-Panel--collapsed
+    description: the root div of the collapsed collapsible Panel
   - name: .ais-Panel-header
     description: the header of the Panel (optional)
   - name: .ais-Panel-body
