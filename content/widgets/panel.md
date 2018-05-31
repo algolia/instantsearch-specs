@@ -9,14 +9,14 @@ html: |
   </div>
 alt1: Collapsible
 althtml1: |
-  <div class="ais-Panel ais-Panel-collapsible">
+  <div class="ais-Panel ais-Panel--collapsible">
     <div class="ais-Panel-header">Header</div>
     <div class="ais-Panel-body">Panel content</div>
     <div class="ais-Panel-footer">Footer</div>
   </div>
 alt2: Collapsed
 althtml2: |
-  <div class="ais-Panel ais-Panel--collapsible ais-Panel-Panel--collapsed">
+  <div class="ais-Panel ais-Panel--collapsible ais-Panel--collapsed">
     <div class="ais-Panel-header">Header</div>
     <div class="ais-Panel-body">Panel content</div>
     <div class="ais-Panel-footer">Footer</div>

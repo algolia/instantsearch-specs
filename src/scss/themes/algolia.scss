@@ -319,6 +319,27 @@ a[class^='ais-'] {
   border-radius: 5px;
 }
 
+.ais-Panel--collapsible {
+  position: relative;
+  &:after{
+    content: '➖';
+    position: absolute;
+    top: 3px;
+    right: 3px;
+  }
+  &.ais-Panel--collapsed {
+    &:after{
+      content: '➕';
+      position: absolute;
+      top: 3px;
+      right: 3px;
+    }
+    .ais-Panel-body, .ais-Panel-footer{
+      display:none;
+    }
+  }
+}
+
 .ais-Panel-header {
   margin-bottom: 0.5rem;
   padding-bottom: 0.5rem;
@@ -332,6 +353,7 @@ a[class^='ais-'] {
   margin-top: 0.5rem;
   font-size: 0.8rem;
 }
+
 
 .ais-RangeInput-input {
   padding: 0 0.2rem;
