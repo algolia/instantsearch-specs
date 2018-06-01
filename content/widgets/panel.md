@@ -10,16 +10,16 @@ html: |
 alt1: Collapsible
 althtml1: |
   <div class="ais-Panel ais-Panel--collapsible">
-    <button class="ais-Panel-collapseButton" aria-expanded="true">➖</button>
     <div class="ais-Panel-header">Header</div>
+    <button class="ais-Panel-collapseButton" aria-expanded="true">➖</button>
     <div class="ais-Panel-body">Panel content</div>
     <div class="ais-Panel-footer">Footer</div>
   </div>
 alt2: Collapsed
 althtml2: |
   <div class="ais-Panel ais-Panel--collapsible ais-Panel--collapsed">
-    <button class="ais-Panel-collapseButton" aria-expanded="true">➕</button>
     <div class="ais-Panel-header">Header</div>
+    <button class="ais-Panel-collapseButton" aria-expanded="true">➕</button>
     <div class="ais-Panel-body">Panel content</div>
     <div class="ais-Panel-footer">Footer</div>
   </div>
