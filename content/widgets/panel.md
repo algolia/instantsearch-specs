@@ -43,4 +43,6 @@ options:
     description: Text to put before the widget
   - name: footer
     description: Text to put after the widget
+  - name: collapsible
+    description: Makes the panel collapsible
 ---
