@@ -2,8 +2,8 @@
 title: Breadcrumb
 type: widget
 html: |
-  <div class="ais-Breadcrumb">
-    <ul class="ais-Breadcrumb-list">
+  <nav aria-label="Breadcrumb" class="ais-Breadcrumb">
+    <ol class="ais-Breadcrumb-list">
       <li class="ais-Breadcrumb-item">
         <a class="ais-Breadcrumb-link" href="#">Home</a>
       </li>
@@ -13,10 +13,10 @@ html: |
       </li>
       <li class="ais-Breadcrumb-item ais-Breadcrumb-item--selected">
         <span class="ais-Breadcrumb-separator" aria-hidden="true">></span>
-        Kitchen textiles
+        <a class="ais-Breadcrumb-link" href="#" aria-current="page">Kitchen textiles</a>
       </li>
-    </ul>
-  </div>
+    </ol>
+  </nav>
 classes:
   - name: .ais-Breadcrumb
     description: the root div of the widget
