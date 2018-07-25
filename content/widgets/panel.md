@@ -3,25 +3,25 @@ title: Panel
 type: widget
 html: |
   <div class="ais-Panel">
-    <div class="ais-Panel-header">Header</div>
+    <header class="ais-Panel-header">Header</header>
     <div class="ais-Panel-body">Panel content</div>
-    <div class="ais-Panel-footer">Footer</div>
+    <footer class="ais-Panel-footer">Footer</footer>
   </div>
 alt1: Collapsible
 althtml1: |
   <div class="ais-Panel ais-Panel--collapsible">
-    <div class="ais-Panel-header">Header</div>
+    <header class="ais-Panel-header">Header</header>
     <button class="ais-Panel-collapseButton" aria-expanded="true">➖</button>
     <div class="ais-Panel-body">Panel content</div>
-    <div class="ais-Panel-footer">Footer</div>
+    <footer class="ais-Panel-footer">Footer</footer>
   </div>
 alt2: Collapsed
 althtml2: |
   <div class="ais-Panel ais-Panel--collapsible ais-Panel--collapsed">
-    <div class="ais-Panel-header">Header</div>
+    <header class="ais-Panel-header">Header</header>
     <button class="ais-Panel-collapseButton" aria-expanded="false">➕</button>
     <div class="ais-Panel-body">Panel content</div>
-    <div class="ais-Panel-footer">Footer</div>
+    <footer class="ais-Panel-footer">Footer</footer>
   </div>
 classes:
   - name: .ais-Panel
