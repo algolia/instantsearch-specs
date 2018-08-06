@@ -2,16 +2,16 @@
 title: Pagination
 type: widget
 html: |
-  <div class="ais-Pagination">
-    <ul class="ais-Pagination-list">
+  <nav aria-label="Pagination" class="ais-Pagination">
+    <ol class="ais-Pagination-list">
       <li class="ais-Pagination-item ais-Pagination-item--firstPage ais-Pagination-item--disabled">
-        <span class="ais-Pagination-link" aria-label="Previous">‹‹</span>
+        <span class="ais-Pagination-link" aria-label="First page">‹‹</span>
       </li>
       <li class="ais-Pagination-item ais-Pagination-item--previousPage ais-Pagination-item--disabled">
         <span class="ais-Pagination-link" aria-label="Previous">‹</span>
       </li>
       <li class="ais-Pagination-item ais-Pagination-item--selected">
-        <a class="ais-Pagination-link" href="#">1</a>
+        <a class="ais-Pagination-link" href="#" aria-current="page">1</a>
       </li>
       <li class="ais-Pagination-item ais-Pagination-item--page">
         <a class="ais-Pagination-link" href="#">2</a>
@@ -26,10 +26,10 @@ html: |
         <a class="ais-Pagination-link" aria-label="Next" href="#">›</a>
       </li>
       <li class="ais-Pagination-item ais-Pagination-item--lastPage">
-        <a class="ais-Pagination-link" aria-label="Next" href="#">››</a>
+        <a class="ais-Pagination-link" aria-label="Last page" href="#">››</a>
       </li>
-    </ul>
-  </div>
+    </ol>
+  </nav>
 classes:
   - name: .ais-Pagination
     description: the root div of the widget
