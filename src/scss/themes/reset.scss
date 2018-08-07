@@ -65,14 +65,19 @@
   align-items: center;
 }
 
+.ais-GeoSearch,
+.ais-GeoSearch-map {
+  height: 100%;
+}
+
 .ais-HierarchicalMenu-list .ais-HierarchicalMenu-list {
   margin-left: 1em;
 }
 
 .ais-PoweredBy-logo {
   display: block;
-  width: 70px;
-  height: auto;
+  height: 1.2em;
+  width: auto;
 }
 
 .ais-RatingMenu-starIcon {

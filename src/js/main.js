@@ -1,5 +1,12 @@
 import './highlight';
 
+docsearch({
+  apiKey: 'e0cad4d028f0c3aa772c62952ed754cb',
+  indexName: 'instantsearch_specs',
+  inputSelector: '#docsearch',
+  debug: false, // Set debug to true if you want to inspect the dropdown
+});
+
 const changeThemeSelect = document.getElementById('js-changeTheme');
 const customThemeStyleSheet = document.getElementById('js-customTheme');
 const localStorageSelectChoice = localStorage.getItem('selectChoice') || 0;
@@ -75,6 +82,13 @@ codeWrapperTabs.forEach(item => {
     document.querySelectorAll('.code-wrapper-content').forEach(item => {
       if (item.getAttribute('data-html') === dataHTML) {
         item.style.display = 'block';
+
+        // have the possibility of styling certain elements as their dark version
+        if (item.querySelector('[class$="--dark"]')) {
+          item.parentNode.classList.add('dark');
+        } else {
+          item.parentNode.classList.remove('dark');
+        }
       } else {
         item.style.display = 'none';
       }
