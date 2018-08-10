@@ -144,6 +144,6 @@ options:
   - name: autofocus
     default: false
     description: Focus on the input automatically
-  - name: transformItems
+  - name: transformQuery
     description: Functions which receives the items, which will be called before displaying them, useful for mapping over the items to transform them. Return a new array with the same shape as the original array.
 ---
