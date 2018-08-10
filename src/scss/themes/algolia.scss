@@ -161,11 +161,6 @@ a[class^='ais-'] {
   }
 }
 
-.ais-GeoSearch,
-.ais-GeoSearch-map {
-  height: 100%;
-}
-
 .ais-GeoSearch {
   position: relative;
 }
@@ -317,6 +312,25 @@ a[class^='ais-'] {
   background-position: 92% 50%;
   border: 1px solid $ghost;
   border-radius: 5px;
+}
+
+.ais-Panel--collapsible {
+  position: relative;
+
+  &.ais-Panel--collapsed {
+    .ais-Panel-body, .ais-Panel-footer{
+      display:none;
+    }
+  }
+
+  .ais-Panel-collapseButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    border: none;
+    background: none;
+  }
 }
 
 .ais-Panel-header {
