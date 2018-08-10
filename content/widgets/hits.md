@@ -37,4 +37,7 @@ classes:
     description: the list of results
   - name: .ais-Hits-item
     description: the hit list item
+options:
+  - name: transformItems
+    description: Functions which receives the items, which will be called before displaying them, useful for mapping over the items to transform them. Return a new array with the same shape as the original array.
 ---

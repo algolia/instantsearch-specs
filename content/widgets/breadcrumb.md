@@ -40,4 +40,6 @@ options:
     description: Separator used in the attributes to separate level values
   - name: rootPath
     description: Prefix path to use if the first level is not the root level.
+  - name: transformItems
+    description: Functions which receives the items, which will be called before displaying them, useful for mapping over the items to transform them. Return a new array with the same shape as the original array.
 ---

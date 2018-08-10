@@ -73,4 +73,7 @@ classes:
     description: the button used to display more results
   - name: .ais-InfiniteHits-loadMore--disabled
     description: the disabled button used to display more results
+options:
+  - name: transformItems
+    description: Functions which receives the items, which will be called before displaying them, useful for mapping over the items to transform them. Return a new array with the same shape as the original array.
 ---
