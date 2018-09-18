@@ -69,6 +69,14 @@ classes:
     description: the upper handle div of the widget
   - name: .ais-RangeSlider-tooltip
     description: the tooltip div of the widget
+  - name: .ais-RangeSlider-marker
+    description: the marker div of the widget
+  - name: .ais-RangeSlider-marker-horizontal
+    description: the horizontal marker div of the widget
+  - name: .ais-RangeSlider-marker--large
+    description: the large marker div of the widget
+  - name: .ais-RangeSlider-value
+    description: the value div of the widget
 options:
   - name: attribute
     description: Attribute to apply the filter to
