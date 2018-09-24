@@ -53,7 +53,7 @@ classes:
   - name: .ais-GeoSearch-label
     description: the label of the control element
   - name: .ais-GeoSearch-label--selected
-    description: the label of the control element
+    description: the selected label of the control element
   - name: .ais-GeoSearch-input
     description: the input of the control element
   - name: .ais-GeoSearch-redo
