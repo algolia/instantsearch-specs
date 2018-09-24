@@ -62,8 +62,6 @@ classes:
     description: the disabled redo search button
   - name: .ais-GeoSearch-reset
     description: the reset refinement button
-  - name: .ais-GeoSearch-reset--disabled
-    description: the disabled reset refinement button
 options:
   - name: initialZoom
     default: 1
