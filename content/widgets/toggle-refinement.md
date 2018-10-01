@@ -22,6 +22,8 @@ classes:
 options:
   - name: attribute
     description: Attribute to apply the filter to
+  - name: label
+    description: Text to display
   - name: 'on'
     description: Refinement to enable if this widget is checked
   - name: 'off'
