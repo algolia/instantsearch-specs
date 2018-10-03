@@ -18,4 +18,5 @@ classes:
 options:
   - name: transformItems
     description: Function which receives the items, which will be called before displaying them. Should return a new array with the same shape as the original array. Useful for mapping over the items to transform, remove or reorder them
+note: This component does not need to be implemented and can be removed in major versions.
 ---
