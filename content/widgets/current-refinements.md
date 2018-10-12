@@ -72,7 +72,7 @@ options:
     description: The list of attributes to display
   - name: excludedAttributes
     description: The list of attributes to filter out included attributes
-  - name: includesQuery
+  - name: clearsQuery
     default: false
     description: The list includes the query too
   - name: transformItems
