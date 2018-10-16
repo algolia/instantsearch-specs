@@ -41,14 +41,14 @@ althtml1: |
         </span>
         <span class="ais-CurrentRefinements-category">
           <span class="ais-CurrentRefinements-categoryLabel">
-            <q>Bla bla bla</q>
+            <q>my search</q>
           </span>
           <button class="ais-CurrentRefinements-delete">✕</button>
         </span>
       </li>
     </ul>
   </div>
-alt1: with includesQuery and a query
+alt1: with empty excludedAttributes
 classes:
   - name: .ais-CurrentRefinements
     description: the root div of the widget
@@ -71,10 +71,8 @@ options:
     default: all searchable attributes
     description: The list of attributes to display
   - name: excludedAttributes
+    default: ["query"]
     description: The list of attributes to filter out included attributes
-  - name: includesQuery
-    default: false
-    description: The list includes the query too
   - name: transformItems
     description: Function which receives the items, which will be called before displaying them. Should return a new array with the same shape as the original array. Useful for mapping over the items to transform, remove or reorder them
 ---
