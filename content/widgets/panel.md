@@ -2,27 +2,27 @@
 title: Panel
 type: widget
 html: |
-  <div class="ais-Panel">
-    <div class="ais-Panel-header">Header</div>
+  <section class="ais-Panel">
+    <header class="ais-Panel-header">Header</header>
     <div class="ais-Panel-body">Panel content</div>
-    <div class="ais-Panel-footer">Footer</div>
-  </div>
+    <footer class="ais-Panel-footer">Footer</footer>
+  </section>
 alt1: Collapsible
 althtml1: |
-  <div class="ais-Panel ais-Panel--collapsible">
-    <div class="ais-Panel-header">Header</div>
+  <section class="ais-Panel ais-Panel--collapsible">
+    <header class="ais-Panel-header">Header</header>
     <button class="ais-Panel-collapseButton" aria-expanded="true">➖</button>
     <div class="ais-Panel-body">Panel content</div>
-    <div class="ais-Panel-footer">Footer</div>
-  </div>
+    <footer class="ais-Panel-footer">Footer</footer>
+  </section>
 alt2: Collapsed
 althtml2: |
-  <div class="ais-Panel ais-Panel--collapsible ais-Panel--collapsed">
-    <div class="ais-Panel-header">Header</div>
+  <section class="ais-Panel ais-Panel--collapsible ais-Panel--collapsed">
+    <header class="ais-Panel-header">Header</header>
     <button class="ais-Panel-collapseButton" aria-expanded="false">➕</button>
     <div class="ais-Panel-body">Panel content</div>
-    <div class="ais-Panel-footer">Footer</div>
-  </div>
+    <footer class="ais-Panel-footer">Footer</footer>
+  </section>
 classes:
   - name: .ais-Panel
     description: the root div of the Panel
