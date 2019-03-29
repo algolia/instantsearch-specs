@@ -624,3 +624,29 @@ a[class^='ais-'] {
   width: 16px;
   height: 16px;
 }
+
+.ais-VoiceSearch-button {
+  border: none;
+  width: 24px;
+  height: 24px;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+.ais-VoiceSearch-button svg {
+  color: $port-gore;
+}
+
+.ais-VoiceSearch-button:hover {
+  cursor: pointer;
+  background-color: lighten($port-gore, 40%);
+}
+
+.ais-VoiceSearch-button:hover svg {
+  color: #ffffff;
+}
+
+.ais-VoiceSearch-button:disabled:hover {
+  cursor: not-allowed;
+  background: inherit;
+}
