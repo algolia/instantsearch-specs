@@ -646,6 +646,10 @@ a[class^='ais-'] {
   color: #ffffff;
 }
 
+.ais-VoiceSearch-button:disabled svg {
+  color: lighten($port-gore, 40%);
+}
+
 .ais-VoiceSearch-button:disabled:hover {
   cursor: not-allowed;
   background: inherit;
