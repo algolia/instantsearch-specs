@@ -51,7 +51,7 @@ classes:
   - name: .ais-VoiceSearch-button
     description: the button to trigger the voice search
   - name: .ais-VoiceSearch-status
-    description: the status
+    description: the status of the voice search
 options:
   - name: searchAsYouSpeak
     default: false
