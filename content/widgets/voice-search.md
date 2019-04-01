@@ -49,7 +49,7 @@ classes:
   - name: .ais-VoiceSearch
     description: the root div of the widget
   - name: .ais-VoiceSearch-button
-    description: the button
+    description: the button to trigger the voice search
   - name: .ais-VoiceSearch-status
     description: the status
 options:
