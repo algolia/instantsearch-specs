@@ -1,6 +1,8 @@
 ---
 title: VoiceSearch
 type: widget
+info: |
+  The icon is from <a href="https://feathericons.com/" target="_blank">FeatherIcon</a>. Its license is MIT and the attribution is not needed according to <a href="https://github.com/feathericons/feather/issues/95" target="_blank">this</a>.
 html: |
   <div class="ais-VoiceSearch">
     <button class="ais-VoiceSearch-button" type="button" title="Search by voice">
