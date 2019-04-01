@@ -631,22 +631,20 @@ a[class^='ais-'] {
   height: 24px;
   padding: 4px;
   border-radius: 50%;
+  color: $port-gore;
 }
 
 .ais-VoiceSearch-button svg {
-  color: $port-gore;
+  color: currentColor;
 }
 
 .ais-VoiceSearch-button:hover {
   cursor: pointer;
   background-color: lighten($port-gore, 40%);
-}
-
-.ais-VoiceSearch-button:hover svg {
   color: #ffffff;
 }
 
-.ais-VoiceSearch-button:disabled svg {
+.ais-VoiceSearch-button:disabled {
   color: lighten($port-gore, 40%);
 }
 
