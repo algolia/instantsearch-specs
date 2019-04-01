@@ -14,7 +14,7 @@ html: |
       </svg>
     </button>
     <div class="ais-VoiceSearch-status">
-      <p></p>
+      <p>Amazon Fire tablet</p>
     </div>
   </div>
 alt1: Recognizing speech
