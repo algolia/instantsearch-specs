@@ -650,6 +650,7 @@ a[class^='ais-'] {
 }
 
 .ais-VoiceSearch-button:disabled:hover {
+  color: lighten($port-gore, 40%);
   cursor: not-allowed;
   background: inherit;
 }
