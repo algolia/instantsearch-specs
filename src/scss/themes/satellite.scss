@@ -79,6 +79,14 @@ $red100: #ffe6e9;
 ////////////////
 
 /**
+ * Reset
+ */
+
+[class^="ais-"] {
+  box-sizing: border-box;
+}
+
+/**
  * Disabled
  */
 
@@ -827,7 +835,7 @@ $red100: #ffe6e9;
   font-size: 0.875rem;
   line-height: 1.5;
   min-height: 1.5rem;
-  padding: 0.025rem 0.5rem;
+  padding: 0.05rem 0.5rem;
 }
 
 .ais-CurrentRefinements-category {
