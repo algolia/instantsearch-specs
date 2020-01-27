@@ -473,10 +473,6 @@ $red100: #ffe6e9;
   color: $grey600;
 }
 
-.ais-SearchBox-input::placeholder {
-  color: $grey600;
-}
-
 .ais-SearchBox-input:focus {
   border-color: $nebula600;
   box-shadow: rgba($grey900, 0.05) 0 1px 0 0;
@@ -492,11 +488,6 @@ $red100: #ffe6e9;
 }
 
 .ais-SearchBox-input:disabled::-webkit-input-placeholder {
-  color: $grey300;
-  pointer-events: none;
-}
-
-.ais-SearchBox-input:disabled::placeholder {
   color: $grey300;
   pointer-events: none;
 }
@@ -544,6 +535,8 @@ $red100: #ffe6e9;
   display: none;
 }
 
+// We ignore the `submit` button in this theme because it replaced by the
+// Algolia magnifier glass.
 .ais-SearchBox-submit {
   display: none;
 }
@@ -788,10 +781,8 @@ $red100: #ffe6e9;
  * RatingMenu
  */
 
-.ais-RatingMenu-link {
-  > * + * {
-    margin-left: 0.3rem;
-  }
+.ais-RatingMenu-starIcon {
+  margin-right: 0.25rem;
 }
 
 .ais-RatingMenu-starIcon {
