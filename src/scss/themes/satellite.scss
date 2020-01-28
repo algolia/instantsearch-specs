@@ -187,8 +187,6 @@ $red100: #ffe6e9;
 .ais-InfiniteHits-loadMore:active,
 .ais-InfiniteHits-loadPrevious:active,
 .ais-Pagination-item--selected .ais-Pagination-link,
-// React InstantSearch creates the wrong DOM output for selected links
-.ais-Pagination-link.ais-Pagination-link--selected,
 .ais-Pagination-link:active,
 .ais-GeoSearch-redo:active,
 .ais-GeoSearch-reset:active,
@@ -1022,8 +1020,6 @@ $red100: #ffe6e9;
   display: inline-block;
 }
 
-// React InstantSearch creates the wrong DOM output for selected links
-.ais-Pagination-link--selected,
 .ais-Pagination-item--selected .ais-Pagination-link {
   font-weight: bold;
 }
