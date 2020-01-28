@@ -1022,6 +1022,12 @@ $red100: #ffe6e9;
   display: inline-block;
 }
 
+// React InstantSearch creates the wrong DOM output for selected links
+.ais-Pagination-link--selected,
+.ais-Pagination-item--selected .ais-Pagination-link {
+  font-weight: bold;
+}
+
 ////////////////
 // Metadata
 ////////////////
