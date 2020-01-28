@@ -816,9 +816,11 @@ $red100: #ffe6e9;
 }
 
 .ais-CurrentRefinements-item {
+  align-items: center;
   background-color: $grey100;
   border: 1px solid $grey300;
   border-radius: 3px;
+  display: flex;
   display: inline-flex;
   font-size: 0.875rem;
   line-height: 1.5;
