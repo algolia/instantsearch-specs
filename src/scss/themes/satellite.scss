@@ -582,9 +582,10 @@ $red100: #ffe6e9;
 
 .ais-Highlight-highlighted,
 .ais-Snippet-highlighted {
-  background-color: $nebula100;
-  color: $nebula900;
+  background-color: $blue200;
+  color: inherit;
   font-style: normal;
+  font-weight: bold;
 }
 
 /**
