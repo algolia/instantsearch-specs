@@ -591,6 +591,17 @@ $break-medium: 767px;
 }
 
 /**
+ * ReverseHighlighting and ReverseSnippeting
+ */
+
+.ais-ReverseHighlight-highlighted,
+.ais-ReverseSnippet-highlighted {
+  background-color: none;
+  color: $nebula500;
+  font-weight: bold;
+}
+
+/**
  * Hits
  */
 

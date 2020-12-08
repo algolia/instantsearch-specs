@@ -274,6 +274,11 @@ a[class^='ais-'] {
   background-color: $koromiko;
 }
 
+.ais-ReverseHighlight-highlighted,
+.ais-ReverseSnippet-highlighted {
+  font-weight: bold;
+}
+
 .ais-InfiniteHits-list,
 .ais-InfiniteResults-list,
 .ais-Hits-list,
