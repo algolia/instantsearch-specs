@@ -596,10 +596,10 @@ $break-medium: 767px;
 
 .ais-ReverseHighlight-highlighted,
 .ais-ReverseSnippet-highlighted {
-  color: $nebula500;
+  color: inherit;
   font-weight: bold;
   font-style: normal;
-  background-color: none;
+  background: none;
 }
 
 /**
