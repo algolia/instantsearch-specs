@@ -44,7 +44,7 @@ options:
     description: The languages in the query. Currently only supports `en`.
   - name: attributesForPrediction
     description: |
-      Attributes to use for predictions.
+      Attributes to use for prediction.
       If empty, we use all `searchableAttributes` to find answers.
       All your `attributesForPrediction` must be part of your `searchableAttributes`.
     default: "['*']"
@@ -54,7 +54,7 @@ options:
       Cannot be greater than 1000.
     default: 1
   - name: debounceTime
-    description: Debounce time in milliseconds to debounce answers API
+    description: Debounce time in milliseconds before querying the answers API
     default: 200
   - name: escapeHTML
     description: Whether to escape HTML tags from hits string values.
