@@ -20,11 +20,7 @@ althtml2: |
   <div class="ais-Answers ais-Answers--empty">
     <div class="ais-Answers-header">Algolia Answers</div>
     <div class="ais-Answers-loader">loading...</div>
-    <ul class="ais-Answers-list">
-      <!-- Displays the hits from the last result -->
-      <li class="ais-Answers-item">Author Sam Martin shares photos of ...</li>
-      <li class="ais-Answers-item">Beau Lotto's color games puzzle your vision, but they also spotlight what you can't normally see...</li>
-    </ul>
+    <ul class="ais-Answers-list"></ul>
   </div>
 classes:
   - name: .ais-Answers
