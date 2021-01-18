@@ -20,7 +20,6 @@ althtml2: |
   <div class="ais-Answers ais-Answers--empty">
     <div class="ais-Answers-header">Algolia Answers</div>
     <div class="ais-Answers-loader">loading...</div>
-    <ul class="ais-Answers-list"></ul>
   </div>
 classes:
   - name: .ais-Answers
