@@ -14,7 +14,7 @@ alt1: not smart sorted
 althtml1: |
   <div class="ais-SmartSort">
     <div class="ais-SmartSort-text">
-      <div>Currently showing all results</div>
+      Currently showing all results
     </div>
     <button class="ais-SmartSort-button">
       <div>See relevant results</div>
