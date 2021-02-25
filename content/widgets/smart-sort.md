@@ -7,7 +7,7 @@ html: |
       <div>We removed some search results to show you the most relevant ones</div>
     </div>
     <button class="ais-SmartSort-button">
-      <div>See all results</div>
+      <span>See all results</span>
     </button>
   </div>
 alt1: not smart sorted
