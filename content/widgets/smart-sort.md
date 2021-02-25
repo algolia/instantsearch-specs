@@ -17,7 +17,7 @@ althtml1: |
       Currently showing all results
     </div>
     <button class="ais-SmartSort-button">
-      <div>See relevant results</div>
+      <span>See relevant results</span>
     </button>
   </div>
 classes:
