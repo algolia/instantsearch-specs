@@ -4,7 +4,7 @@ type: widget
 html: |
   <div class="ais-SmartSort">
     <div class="ais-SmartSort-text">
-      <div>We removed some search results to show you the most relevant ones</div>
+      We removed some search results to show you the most relevant ones
     </div>
     <button class="ais-SmartSort-button">
       <span>See all results</span>
