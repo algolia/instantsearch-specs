@@ -19,7 +19,7 @@ althtml1: |
     <button class="ais-SmartSort-button">
       <div>See relevant results</div>
     </button>
-  </div>>
+  </div>
 classes:
   - name: .ais-SmartSort
     description: the root span of the widget
