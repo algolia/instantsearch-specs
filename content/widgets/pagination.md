@@ -3,7 +3,7 @@ title: Pagination
 type: widget
 html: |
   <div class="ais-Pagination">
-    <nav class="ais-Pagination-nav" aria-label="Pagination">
+    <nav class="ais-Pagination-navigation" aria-label="Pagination">
       <ul class="ais-Pagination-list">
         <li class="ais-Pagination-item ais-Pagination-item--firstPage ais-Pagination-item--disabled">
           <span class="ais-Pagination-link" aria-label="First">‹‹</span>
