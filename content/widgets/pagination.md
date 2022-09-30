@@ -89,7 +89,7 @@ translations:
     default: '"››"'
     description: The text for the last page item.
   - name: pageItemText
-    default: '({ currentPage, nbPage }) => String(currentPage)'
+    default: '({ currentPage, nbPages }) => String(currentPage)'
     description: The text for the current page item.
   - name: ariaFirstPageLabel
     default: '"First"'
