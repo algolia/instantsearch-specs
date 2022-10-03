@@ -46,4 +46,7 @@ translations:
   - name: rootElementText
     default: '"Home"'
     description: The text for the breadcrumb’s starting point (for example, “Home page”).
+  - name: separatorText
+    default: '" > "'
+    description: The text for the breadcrumb’s separator.
 ---
