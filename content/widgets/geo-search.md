@@ -96,10 +96,10 @@ options:
 translations:
   - name: resetButtonText
     default: 'Clear the map refinement'
-    description: The text that will be displayed on the "Clear the map refinement" button at the bottom.
+    description: The text of the "Clear the map refinement" button.
   - name: redoButtonText
     default: 'Redo search here'
-    description: A button that will be displayed when the map has been moved.
+    description: The text of the button that's displayed when the map was moved.
   - name: refineOnMoveToggleLabel
     default: 'Search as I move the map'
     description: The label of the toggle to refine on move.

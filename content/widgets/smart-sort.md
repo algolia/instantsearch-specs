@@ -30,8 +30,8 @@ classes:
 translations:
   - name: informationText
     default: '({ isRelevantSorted, isVirtualReplica }) => ""'
-    description: An information text that is displayed above the button.
+    description: Information text displayed above the button.
   - name: seeButtonText
     default: '({ isRelevantSorted, isVirtualReplica }) => isRelevantSorted ? "See all results" : "See relevant results"'
-    description: The text that will be displayed on the "See *** results" button.
+    description: The text of the "See _n_ results" button.
 ---
