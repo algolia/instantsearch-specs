@@ -19,7 +19,7 @@
     "styles:autoprefixer": "postcss themes/ --use autoprefixer --replace --no-map",
     "prepack": "yarn styles:package && yarn styles:min && yarn styles:autoprefixer"
   },
-  "dependencies": {
+  "devDependencies": {
     "@types/node": "^18.0.0",
     "astro": "^1.4.0",
     "autoprefixer": "^10.4.12",
