@@ -1,5 +1,5 @@
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  site: `https://instantsearch-templates.netlify.app/`,
+  site: "https://instantsearch-templates.netlify.app/",
 });
